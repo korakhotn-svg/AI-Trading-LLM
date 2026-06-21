@@ -1,0 +1,2 @@
+"strategy","symbol","period","from","to","deposit_usd","final_balance_usd","net_profit_usd","net_profit_pct","status"
+"target_loop_c1_t50","XAUUSD.v","M5","2026-01-01","2026-06-19","10000","10945.04","945.04","9.4504","successfully finished"
