@@ -1,0 +1,14 @@
+{
+  "name": "xau_hybrid_session_breakout_v1",
+  "symbol": "XAUUSD",
+  "style": "Hybrid",
+  "entry_timeframe": "M5",
+  "confirmation_timeframe": "M15",
+  "trend_timeframe": "H1",
+  "entry_logic": "Enter on M5 pullback continuation after volatility expansion.",
+  "confirmation_logic": "Require M15 momentum and market structure confirmation.",
+  "trend_filter": "Trade only with the H1 trend bias.",
+  "exit_logic": "Use ATR stop, partial take profit, and trailing stop after first target.",
+  "risk_per_trade": 0.01,
+  "session_selection": "auto"
+}

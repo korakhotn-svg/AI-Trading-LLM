@@ -1,0 +1,18 @@
+{
+  "name": "xau_2025_hybrid_tick_v1",
+  "symbol": "XAUUSD",
+  "entry_timeframe": "M5",
+  "confirmation_timeframe": "M15",
+  "trend_timeframe": "H1",
+  "risk_per_trade": 0.01,
+  "fast_ma": 10,
+  "slow_ma": 30,
+  "trend_ma": 50,
+  "atr_period": 14,
+  "atr_stop_multiplier": 1.5,
+  "reward_risk": 1.8,
+  "session_start_utc": 0,
+  "session_end_utc": 23,
+  "max_trades_per_day": 5,
+  "direction": "both"
+}

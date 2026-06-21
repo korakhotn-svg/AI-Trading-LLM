@@ -1,0 +1,29 @@
+{
+  "strategy": "xau_2025_hybrid_tick_v1",
+  "trades": 4,
+  "win_rate": 0.5,
+  "profit_factor": 1.7999999999999925,
+  "expectancy_r": 0.399999999999998,
+  "net_r": 1.599999999999992,
+  "max_drawdown_r": -0.9999999999999967,
+  "best_session_hour_utc": 0,
+  "fitness": 0.5999999999999954,
+  "strategy_params": {
+    "name": "xau_2025_hybrid_tick_v1",
+    "symbol": "XAUUSD",
+    "entry_timeframe": "M5",
+    "confirmation_timeframe": "M15",
+    "trend_timeframe": "H1",
+    "risk_per_trade": 0.01,
+    "fast_ma": 10,
+    "slow_ma": 30,
+    "trend_ma": 50,
+    "atr_period": 14,
+    "atr_stop_multiplier": 1.5,
+    "reward_risk": 1.8,
+    "session_start_utc": 0,
+    "session_end_utc": 23,
+    "max_trades_per_day": 5,
+    "direction": "both"
+  }
+}

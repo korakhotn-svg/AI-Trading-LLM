@@ -1,0 +1,2 @@
+period,trades,return_pct,max_dd_pct,profit_factor,win_rate,avg_trade_return_pct,avg_spread,pass,notes
+overall,557,196.11043559858277,-10.155164538514285,1.6362068667794107,0.4452423698384201,0.3520833673224107,0.745578096947931,True,ok

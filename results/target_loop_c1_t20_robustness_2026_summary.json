@@ -1,0 +1,27 @@
+{
+  "strategy_file": "C:\\Users\\enjoy\\OneDrive\\Desktop\\AI_GOLD_RESEARCH\\strategies\\target_loop_best_strategy.json",
+  "trades_file": "C:\\Users\\enjoy\\OneDrive\\Desktop\\AI_GOLD_RESEARCH\\results\\target_loop_c1_t20_tick_confirm_forward_2026_trades.csv",
+  "overall": {
+    "period": "overall",
+    "trades": 557,
+    "return_pct": 196.11043559858277,
+    "max_dd_pct": -10.155164538514285,
+    "profit_factor": 1.6362068667794107,
+    "win_rate": 0.4452423698384201,
+    "avg_trade_return_pct": 0.3520833673224107,
+    "avg_spread": 0.745578096947931,
+    "pass": true,
+    "notes": "ok"
+  },
+  "monthly_pass_rate": 0.8333333333333334,
+  "quarterly_pass_rate": 1.0,
+  "failed_months": [
+    "2026-05"
+  ],
+  "failed_quarters": [],
+  "outputs": {
+    "monthly": "C:\\Users\\enjoy\\OneDrive\\Desktop\\AI_GOLD_RESEARCH\\results\\target_loop_c1_t20_robustness_2026_monthly.csv",
+    "quarterly": "C:\\Users\\enjoy\\OneDrive\\Desktop\\AI_GOLD_RESEARCH\\results\\target_loop_c1_t20_robustness_2026_quarterly.csv",
+    "overall": "C:\\Users\\enjoy\\OneDrive\\Desktop\\AI_GOLD_RESEARCH\\results\\target_loop_c1_t20_robustness_2026_overall.csv"
+  }
+}

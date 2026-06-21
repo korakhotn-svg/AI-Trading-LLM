@@ -1,0 +1,17 @@
+﻿{
+  "test": "MT5 Strategy Tester",
+  "ea": "EA_XAU_HYBRID_XAUUSDv.ex5",
+  "symbol": "XAUUSD.v",
+  "period": "M5",
+  "model": "Every tick based on real ticks",
+  "from": "2026-01-01",
+  "to": "2026-06-19",
+  "deposit_usd": 10000,
+  "final_balance_usd": 8848.90,
+  "net_profit_usd": -1151.10,
+  "net_profit_pct": -11.511,
+  "ticks": 80110788,
+  "bars": 32590,
+  "status": "successfully finished",
+  "notes": "EA ran successfully but result differs from Python tick-confirm. Tester log shows repeated market-closed close attempts around weekend/session gaps. Next step: adjust EA execution/time-exit/session handling, then retest."
+}

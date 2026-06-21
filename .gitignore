@@ -1,0 +1,36 @@
+﻿# secrets
+.env
+*.key
+*.pem
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# large market data
+/data/dukascopy/raw_ticks/
+/data/dukascopy/ticks_csv_gz/
+/data/dukascopy/bars_csv_gz/
+*.bi5
+*.csv.gz
+
+# large tester/cache artifacts
+*.tst
+*.hcc
+*.hc
+*.fxt
+
+# generated bulky logs
+logs/*.log
+!logs/README.md
+
+# keep curated reports, but ignore huge raw trade dumps by default
+results/*_trades.csv
+results/*_daily_returns.csv
+
+# local/editor
+.vscode/
+.DS_Store
+Thumbs.db

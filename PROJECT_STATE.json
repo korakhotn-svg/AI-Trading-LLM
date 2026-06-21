@@ -1,0 +1,39 @@
+﻿{
+    "project":  "AI_GOLD_RESEARCH",
+    "root":  "C:\\Users\\enjoy\\OneDrive\\Desktop\\AI_GOLD_RESEARCH",
+    "symbol":  "XAUUSD.v broker / XAUUSD Dukascopy",
+    "current_strategy":  "strategies/target_loop_best_strategy.json",
+    "current_ea":  "exports/EA_XAU_HYBRID_XAUUSDv.ex5",
+    "python_engine":  "no-lookahead M1 spread-aware + MT5 real ticks",
+    "mt5_corrected_summary":  "results/mt5_tester_EA_XAU_HYBRID_XAUUSDv_corrected_2026_summary.json",
+    "large_data_git_excluded":  true,
+    "raw_bi5_files":  12840,
+    "data_size_bytes":  2215537442,
+    "bar_cache_files":  [
+                            {
+                                "Name":  "XAUUSD_H1.csv.gz",
+                                "Length":  319947,
+                                "LastWriteTime":  "\/Date(1781985909696)\/"
+                            },
+                            {
+                                "Name":  "XAUUSD_M1.csv.gz",
+                                "Length":  17243427,
+                                "LastWriteTime":  "\/Date(1781985906178)\/"
+                            },
+                            {
+                                "Name":  "XAUUSD_M15.csv.gz",
+                                "Length":  1236172,
+                                "LastWriteTime":  "\/Date(1781985909480)\/"
+                            },
+                            {
+                                "Name":  "XAUUSD_M5.csv.gz",
+                                "Length":  3609127,
+                                "LastWriteTime":  "\/Date(1781985908713)\/"
+                            }
+                        ],
+    "restore_notes":  [
+                          "Do not commit .env or raw market data.",
+                          "Recreate bars with tick_to_bars.py --from-raw after restoring raw data.",
+                          "Use export_mq5.py to regenerate broker-specific EA."
+                      ]
+}
